@@ -13,7 +13,7 @@ int heightChecker(int* heights, int heightsSize) {
             expected[j]=expected[j+1];
             expected[j+1]=temp;
         }
-        }
+     }
     }
  
     int count=0;
