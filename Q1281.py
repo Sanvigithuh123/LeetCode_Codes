@@ -7,5 +7,6 @@ class Solution:
             sum=sum+dig
             prod=prod*dig
             n=n//10
+            
         return prod-sum
         
