@@ -14,6 +14,7 @@ int heightChecker(int* heights, int heightsSize) {
             expected[j+1]=temp;
         }
      }
+        
     }
  
     int count=0;
