@@ -12,5 +12,6 @@ int commonFactors(int a, int b) {
         count++;
     } 
     }
+    
     return count;
 }
