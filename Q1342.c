@@ -8,5 +8,6 @@ int numberOfSteps(int num) {
         num=num-1;
         count++;
     }
+   
     return count;
 }
