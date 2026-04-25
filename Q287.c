@@ -10,5 +10,6 @@ int findDuplicate(int* nums, int numsSize) {
             result=nums[i];
         }
     }
+    
     return result;
 }
