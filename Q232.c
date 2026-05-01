@@ -1,6 +1,5 @@
 
 
-
 typedef struct {
     int s1[100];
     int s2[100];
