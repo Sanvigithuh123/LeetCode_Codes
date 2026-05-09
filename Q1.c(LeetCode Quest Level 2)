@@ -1,0 +1,20 @@
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+int* findErrorNums(int* nums, int numsSize, int* returnSize) {
+    int *arr=malloc(sizeof(int)*2);
+    for(int i=0;i<numsSize;i++){
+        for(int j=i+1;j<numsSize;j++){
+            if(nums[i]==nums[j])
+            arr[0]=nums[i];
+        }
+    }
+    int sum=0;
+    for(int i=0;i<numsSize;i++){
+        sum=sum+nums[i];
+    }
+    int sum2=(numsSize*(numsSize+1))/2;
+    arr[1]=sum2-(sum-arr[0]);
+    *returnSize=2;
+    return arr;
+}
