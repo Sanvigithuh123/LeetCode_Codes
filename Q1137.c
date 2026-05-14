@@ -9,5 +9,6 @@ int tribonacci(int n) {
      second=third;
      third=next;
    } 
+   
    return next;
 }
