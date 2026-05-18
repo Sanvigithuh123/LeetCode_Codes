@@ -23,6 +23,7 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
             sum=sum+l1->val;
             l1=l1->next;
         }
+        
         if(l2!=NULL){
             sum=sum+l2->val;
             l2=l2->next;
