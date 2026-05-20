@@ -5,6 +5,7 @@ int commonFactors(int a, int b) {
         if(a%i==0 && b%i==0)
         count++;
     }
+        
     }
     else{
        for(int i=1;i<=b;i++){
