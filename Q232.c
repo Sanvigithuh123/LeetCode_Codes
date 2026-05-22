@@ -15,6 +15,7 @@ MyQueue* myQueueCreate() {
     return q;
 }
 
+
 void myQueuePush(MyQueue* obj, int x) {
     obj->s1[++obj->top1]=x;
 }
