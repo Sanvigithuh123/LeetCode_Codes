@@ -2,6 +2,7 @@ int cmp(const void *a,const void *b) {
     return (*(int*)a - *(int*)b);
 }
 
+
 int* twoSum(int* numbers, int numbersSize, int target, int* returnSize) {
     int left = 0, right = numbersSize - 1;
     int* result = (int*)malloc(2 * sizeof(int));
