@@ -15,6 +15,7 @@ struct TreeNode* bst(int *nums, int first, int last){
     root->left=bst(nums,first,mid-1);
     root->right=bst(nums,mid+1,last);
     return root;
+    
 }
 struct TreeNode* sortedArrayToBST(int* nums, int numsSize) {
     if (numsSize<=0) return NULL;
