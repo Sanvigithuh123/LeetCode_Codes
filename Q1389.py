@@ -3,6 +3,5 @@ class Solution:
         a=[]
         for i,n in zip(index,nums):
             a.insert(i,n)
-
         return a
         
