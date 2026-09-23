@@ -14,6 +14,7 @@
     return newnode;
  }
 
+
 void build(struct TreeNode* head, int val){
     if(val<head->val && head->left==NULL)
     head->left=createnode(val);
