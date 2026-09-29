@@ -7,6 +7,7 @@ class Solution:
                 continue
             else:
                 return False
+                
         return True
 
         
