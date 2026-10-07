@@ -7,5 +7,6 @@ int maximumWealth(int** accounts, int accountsSize, int* accountsColSize) {
         }
         if(sum>max) max=sum;
     }
+    
     return max;
 }
