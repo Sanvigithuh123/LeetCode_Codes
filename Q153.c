@@ -8,5 +8,6 @@ int findMin(int* nums, int numsSize) {
 
     else high=mid;
    }
+   
    return nums[low];
 }
