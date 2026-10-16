@@ -7,5 +7,6 @@ class Solution:
             else:
                 a[i]=a[i].capitalize()
         res=" ".join(a)
+        
         return res
         
