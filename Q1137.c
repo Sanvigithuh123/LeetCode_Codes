@@ -7,6 +7,7 @@ int tribonacci(int n) {
      next=first+second+third;
      first=second;
      second=third;
+      
      third=next;
    } 
    
