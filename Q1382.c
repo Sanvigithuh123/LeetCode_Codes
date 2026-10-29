@@ -14,6 +14,7 @@ struct TreeNode* createnode(int val){
     return newnode;
 }
 
+
 void inorder(struct TreeNode* root,int *arr,int *index){
     if(!root) return;
     inorder(root->left,arr,index);
