@@ -4,3 +4,4 @@ bool divisorGame(int n) {
     else
     return 0;
 }
+
