@@ -10,5 +10,6 @@ int maxProfit(int* prices, int pricesSize) {
         initialprice=currentprice;
         }
     }
+    
     return profit;
 }
