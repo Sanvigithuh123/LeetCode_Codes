@@ -9,4 +9,5 @@ char* removeDuplicates(char* s) {
     }
     s[top+1]='\0';
     return s;
+    
 }
