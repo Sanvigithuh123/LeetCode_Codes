@@ -3,4 +3,3 @@ class Solution:
         a=[s.count(i) for i in set(s)]
         return len(set(a))==1
         
-        
