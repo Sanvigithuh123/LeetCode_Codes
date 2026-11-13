@@ -8,6 +8,5 @@ class Solution:
             else:
                 b[i]='1'
         c="".join(b)
-        
         return int(c,2)
         
