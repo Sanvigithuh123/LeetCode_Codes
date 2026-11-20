@@ -5,6 +5,5 @@ int xorOperation(int n, int start) {
         nums[i]=start+2*i;
         ans=ans^nums[i];
     }
-
    return ans;
 }
