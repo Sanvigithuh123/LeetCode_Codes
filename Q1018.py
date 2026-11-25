@@ -10,5 +10,4 @@ class Solution:
             else:
                 ans.append(False)
         return ans
-
-        
+  
