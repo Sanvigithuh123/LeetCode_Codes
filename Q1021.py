@@ -12,4 +12,4 @@ class Solution:
                 if depth>0:
                     a+=i
         return a
-        
+    
